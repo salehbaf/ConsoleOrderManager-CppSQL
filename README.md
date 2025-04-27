@@ -28,21 +28,30 @@ This is a personal project I built to simulate a basic e-commerce ordering syste
 
 ## 🗂 Project Structure
 
-- /src → main.cpp, db_utils.cpp/h, cart.cpp/h
-- /sql → setup.sql (stored procedures)
-- README.md → project documentation
+/src ├── main.cpp ├── db_utils.cpp ├── db_utils.h ├── cart.cpp └── cart.h
+
+/sql └── setup.sql (stored procedures)
+
+README.md → project documentation
 
 ---
 
 ## ⚙️ Setup Instructions
 
-1. Clone the repository
-2. Set up your Oracle DB instance and import the `setup.sql` script
-3. Update your Oracle DB credentials inside `main.cpp`:
-   
-   string user = "your_username";
-   string pass = "your_password";
-   string constr = "your_connection_string";
+1. **Clone this repository:**
+```bash
+git clone https://github.com/salehbaf/ConsoleOrderManager-CppSQL.git
+``` 
+
+2. **Set up your Oracle database:**
+
+   Open SQL Developer or SQL*Plus.
+   Run the sql/setup.sql script to create required stored procedures.
+
+3. **Update database credentials:**
+
+   In main.cpp, update the following lines with your own Oracle user information:
+
 
 ---
 ## 🚀 Why I Built This
