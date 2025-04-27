@@ -39,21 +39,46 @@ README.md → project documentation
 ## ⚙️ Setup Instructions
 
 1. **Clone this repository:**
+
 ```bash
 git clone https://github.com/salehbaf/ConsoleOrderManager-CppSQL.git
 ``` 
 
 2. **Set up your Oracle database:**
 
-   Open SQL Developer or SQL*Plus.
-   Run the sql/setup.sql script to create required stored procedures.
+- Open SQL Developer or SQL*Plus.
+- Run the sql/setup.sql script to create required stored procedures.
 
 3. **Update database credentials:**
 
-   In main.cpp, update the following lines with your own Oracle user information:
+- In main.cpp, update the following lines with your own Oracle user information:
+   - string user = "your_username";
+   - string pass = "your_password";
+   - string constr = "your_connection_string";
 
+4. **Build and run the project:**
+
+- Open the solution in Visual Studio 2022.
+- Build the project and run the console application.
 
 ---
+
 ## 🚀 Why I Built This
+
+I wanted to gain hands-on experience building a modular, database-driven C++ application that simulates a real-world business process.
+This project helped strengthen my skills in backend logic development, SQL stored procedures, OCCI database integration, and modular software design.
+It also mirrors the kind of transactional workflows seen in real e-commerce systems, allowing me to practice both front-end logic (CLI-based interactions) and backend database management.
+
+---
+
+## 🧠 Key Skills Demonstrated
+
+- Object-oriented programming (C++)
+- SQL stored procedure design
+- Oracle database operations
+- Modular project architecture
+- Database integration using C++ OCCI
+- source control (Git/GitHub)
+
 
 
