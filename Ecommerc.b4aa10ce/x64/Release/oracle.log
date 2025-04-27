@@ -1,8 +1,0 @@
-﻿  cart.cpp
-  db_utils.cpp
-  main.cpp
-  Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 107 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  oracle.vcxproj -> C:\Users\cashf\OneDrive\Desktop\DBS311\ASSIGNMENT 2\oracle\x64\Release\Ecommerce-Order-System.exe
